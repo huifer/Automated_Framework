@@ -1,0 +1,5 @@
+attrs==17.4.0
+callable==0.1.2
+easygui==0.98.1
+Pillow==5.0.0
+selenium==3.9.0
