@@ -52,12 +52,13 @@ class GetEventListTest(unittest.TestCase):
 
 
     def test_create_one(self):
-        # 该测试函数纯在问题需要修改
         ins = parse.urljoin(self.url, 'create')
         payload = {u"title": 123}
-        headers = {'Content-Type': 'application/json'}
+        headers = {'Content-Type': 'application/json',
+                    'accept':"application/json"
+                   }
 
-        r = requests.post(ins, data=payload,headers=headers)
+        r = requests.post(ins, data=json.dumps(payload),headers=headers,verify=False)
 
         pass
 
