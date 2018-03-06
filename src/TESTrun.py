@@ -40,8 +40,8 @@ class Slide(object):
         cp1 = self.crop(left, top, right, bottom, pic_name)
         yzm_res = yzm(pic_name)
 
-        self.driver.find_element_by_xpath('//*[@id="userNameInput"]').send_keys('user')
-        self.driver.find_element_by_xpath('//*[@id="passwordInput"]').send_keys('pwd')
+        self.driver.find_element_by_xpath('//*[@id="userNameInput"]').send_keys('27000000001')
+        self.driver.find_element_by_xpath('//*[@id="passwordInput"]').send_keys('123456')
         self.driver.find_element_by_xpath('//*[@id="validateCode"]').send_keys(yzm_res)
         self.driver.find_element_by_xpath('//*[@id="loginForm"]/ul/li[5]/a').click()
         self.log.info("test")

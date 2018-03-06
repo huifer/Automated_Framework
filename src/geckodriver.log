@@ -306,3 +306,45 @@ Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr
 
 [0x7FF86BF0B240] ANOMALY: meaningless REX prefix used
 Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1520255658095	geckodriver	INFO	geckodriver 0.19.1
+1520255658111	geckodriver	INFO	Listening on 127.0.0.1:10290
+1520255661655	mozrunner::runner	INFO	Running command: "C:\\Users\\Administrator\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.0xXwIUChXtSY"
+1520255662834	Marionette	INFO	Enabled via --marionette
+1520255665198	Marionette	INFO	Listening on port 10299
+1520255665282	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://www.zhihuihedao.cn/common/jquery-easyui-1.4.3/jquery.easyui.min.js, line 8155: unreachable code after return statement
+[Child 9580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6468, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6468, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9980, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FF86BF0B240] ANOMALY: meaningless REX prefix used
+1520255725616	geckodriver::marionette	ERROR	Failed to kill browser process
+1520255735470	geckodriver	INFO	geckodriver 0.19.1
+1520255735478	geckodriver	INFO	Listening on 127.0.0.1:10509
+1520255738564	mozrunner::runner	INFO	Running command: "C:\\Users\\Administrator\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.zHmVilA4i637"
+1520255739513	Marionette	INFO	Enabled via --marionette
+1520255740857	Marionette	INFO	Listening on port 10517
+1520255741678	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://www.zhihuihedao.cn/common/jquery-easyui-1.4.3/jquery.easyui.min.js, line 8155: unreachable code after return statement
+JavaScript warning: http://www.zhihuihedao.cn/common/js/jquery2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://www.zhihuihedao.cn/common/jquery-easyui-1.4.3/jquery.easyui.min.js, line 8155: unreachable code after return statement
+JavaScript warning: http://www.zhihuihedao.cn/common/jquery-easyui-1.4.3/jquery.easyui.min.js, line 8155: unreachable code after return statement
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+[0x7FF86BF0B240] ANOMALY: meaningless REX prefix used
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
