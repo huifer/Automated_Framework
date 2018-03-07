@@ -20,6 +20,7 @@ from urllib import parse
 class GetEventListTest(unittest.TestCase):
     def setUp(self):
         self.url = "http://127.0.0.1:8060/api/v1.0/"
+
     @unittest.skip('暂时test_get_data_all的测试')
     def test_get_data_all(self):
         """查询所有"""
@@ -43,29 +44,35 @@ class GetEventListTest(unittest.TestCase):
 
     @unittest.skip('暂时跳过test_del_one用例2的测试')
     def test_del_one(self):
-        ins = parse.urljoin(self.url,'delone/1')
+        ins = parse.urljoin(self.url, 'delone/1')
         r = requests.delete(ins)
         result = r.json()
         self.assertEqual(result['status']['code'], 204)
         self.assertEqual(result['status']['message'], "NO CONTENT")
 
-
-
+    @unittest.skip('暂时跳过test_create_one用例2的测试')
     def test_create_one(self):
         ins = parse.urljoin(self.url, 'create')
         payload = {u"title": 123}
         headers = {'Content-Type': 'application/json',
-                    'accept':"application/json"
+                   'accept': "application/json"
                    }
 
-        r = requests.post(ins, data=json.dumps(payload),headers=headers,verify=False)
+        r = requests.post(ins, data=json.dumps(payload), headers=headers, verify=False)
 
-        pass
+
+    def test_authenticate(self):
+        ins = parse.urljoin(self.url, 'sec')
+        r = requests.get(ins, auth=('admin', 'admin'))
+        result = r.json()
+        self.assertEqual(result['status']['code'], 200)
+        self.assertEqual(result['status']['message'], "OK")
+
 
 
 if __name__ == '__main__':
     # unittest.main()
     suite = unittest.TestSuite()
-    suite.addTest(GetEventListTest("test_create_one"))
+    suite.addTest(GetEventListTest("test_authenticate"))
     runner = unittest.TextTestRunner()
     runner.run(suite)

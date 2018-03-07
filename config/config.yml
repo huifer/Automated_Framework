@@ -1,0 +1,10 @@
+mysql:
+  - host: 192.168.1.87
+    port: 3306
+    user: root
+    root: ROOT
+    database: wt
+    charset: utf8
+testurl:
+  - url: http://www.baidu.com
+    key: ['python','java']

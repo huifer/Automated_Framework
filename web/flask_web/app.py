@@ -6,6 +6,8 @@
 from flask import Flask, request
 
 from web.flask_web.restful_dy import *
+from web.flask_web.jiami import *
+
 
 app = Flask(__name__)
 
@@ -63,6 +65,17 @@ def del_one(id):
     tasks.remove(result[0])
     print("shanchuhou", tasks)
     return status_response(R204)
+
+
+@app.route("/api/v1.0/sec")
+@requires_auth
+def authenticate():
+    return status_response(R200)
+
+@app.route("/")
+def index():
+    return "hello"
+
 
 
 if __name__ == '__main__':

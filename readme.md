@@ -23,8 +23,27 @@ Automated_Framework
     - 删除一条数据 del_one()
 
 - 效果图
-    - 查询所有![查询所有](pic/getall.png)
-    - 查询指定id![查询指定id](pic/getone.png)
-    - 增加一条数据![增加一条数据](pic/createone.png)
-    - 删除一条数据![删除一条数据](pic/deleteone.png)
+    - 查询所有
+    ![查询所有](pic/getall.png)
+    - 查询指定id
+    ![查询指定id](pic/getone.png)
+    - 增加一条数据
+    ![增加一条数据](pic/createone.png)
+    - 删除一条数据
+    ![删除一条数据](pic/deleteone.png)
     
+##
+2018-03-07
+- 定义接口
+    - 带验证接口authenticate()
+- 接口访问
+![接口访问情况](pic/postmanauth用户验证.png)
+- 增加一个[WebInfo](unity/WebInfo.py)模块
+    - getip()
+    - get_server()
+    - get_whois()
+    ![WebInfo](pic/WebInfo.png)
+- 增加一个[config](unity/Config.py)模块,支持Yaml
+- 增加一个压力测试[Pressure.py](src/Pressure.py)
+    - 测试图
+    ![测试图](pic/压力测试.png)
