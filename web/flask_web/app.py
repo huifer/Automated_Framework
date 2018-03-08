@@ -3,7 +3,7 @@
 # @File  : app.py
 # @Author: huifer
 # @Date  : 2018-3-6
-from flask import Flask, request
+from flask import Flask, request, render_template
 
 from web.flask_web.restful_dy import *
 from web.flask_web.jiami import *
@@ -77,6 +77,9 @@ def index():
     return "hello"
 
 
+@app.route("/404")
+def r404():
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(
