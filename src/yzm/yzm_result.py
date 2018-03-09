@@ -10,3 +10,4 @@ def yzm(pic_path):
     yzm = g.enterbox(msg="输入验证码",title="验证码",image=pic_path)
 
     return yzm
+

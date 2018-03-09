@@ -37,7 +37,7 @@ Automated_Framework
 - 定义接口
     - 带验证接口authenticate()
 - 接口访问
-![接口访问情况](pic/postmanauth用户验证.png)
+![接口访问情况](pic/postmanauth用户验证.PNG)
 - 增加一个[WebInfo](unity/WebInfo.py)模块
     - getip()
     - get_server()
@@ -47,3 +47,14 @@ Automated_Framework
 - 增加一个压力测试[Pressure.py](src/Pressure.py)
     - 测试图
     ![测试图](pic/压力测试.png)
+##
+2018-03-08
+- 增加一个404页面
+- 增加[webdirver](test/webtest.py)
+##
+2018-03-09
+- 增加一个[读写excel模块](unity/Excel_utils.py)
+- 增加一个[文件对比模块](unity/CheckFile.py)
+    - 执行实例文件位置test/ht
+    - [html结果](test/ht/htmlout.html)
+    - [excel结果](test/ht/wenti.xls)

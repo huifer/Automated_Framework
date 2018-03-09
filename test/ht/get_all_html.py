@@ -18,8 +18,8 @@ IMG = html.xpath("//img/@src")
 
 # ra = re.findall("(?<=href=\").+?(?=\")|(?<=href=\').+?(?=\')",r.text)
 
-# with open('test.html','wb') as f:
-#     f.write(r.content)
+with open('test.html','wb') as f:
+    f.write(r.content)
 
 
 pass
