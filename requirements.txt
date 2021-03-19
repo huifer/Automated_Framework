@@ -10,7 +10,7 @@ html-testRunner==1.1.2
 httplib2==0.10.3
 idna==2.6
 itsdangerous==0.24
-Jinja2==2.9.5
+Jinja2==2.11.3
 lxml==4.1.1
 MarkupSafe==1.0
 msgpack-python==0.5.5
